@@ -1,0 +1,23 @@
+{
+    "name": "desafio-modulo-2",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "ts-node-dev index.ts --ignore-watch node_modules"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "lodash": "^4.17.15"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.6",
+        "@types/lodash": "^4.14.155",
+        "ts-node-dev": "^1.0.0-pre.44",
+        "typescript": "^3.9.5"
+    }
+}
